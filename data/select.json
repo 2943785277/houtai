@@ -1,0 +1,63 @@
+[
+	{
+	    "id": 1,
+	    "level": 1,
+	    "title": "衣服",
+	    "sub": [{
+	        "id": 1,
+	        "level": 1,
+	        "title": "上衣",
+	        "sub": [{
+	            "id": 1,
+	            "level": 1,
+	            "title": "耐克",
+	            "sub": []
+	        },
+	        {
+	            "id": 1,
+	            "level": 1,
+	            "title": "阿迪",
+	            "sub": []
+	        }
+	        ]
+	      },
+	      {
+	        "id": 1,
+	        "level": 1,
+	        "title": "裤子",
+	        "sub": {
+	            "id": 1,
+	            "level": 1,
+	            "title": "耐克1",
+	            "sub": []
+	        }
+	      }]
+	},
+	{
+	    "id": 1,
+	    "level": 1,
+	    "title": "食品",
+	    "sub": [{
+	        "id": 1,
+	        "level": 1,
+	        "title": "薯片",
+	        "sub": {
+	            "id": 1,
+	            "level": 1,
+	            "title": "耐克1",
+	            "sub": []
+	        }
+	      },
+	      {
+	        "id": 1,
+	        "level": 1,
+	        "title": "饮料",
+	        "sub": {
+	            "id": 1,
+	            "level": 1,
+	            "title": "耐克2",
+	            "sub": []
+	        }
+	      }]
+	}
+]

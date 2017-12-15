@@ -1,0 +1,165 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53;font-family: "微软雅黑"; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none;font-family: "微软雅黑";} 
+a:hover { text-decoration:none; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button:disabled,button:disabled:hover{color: #c3cbd6;background-color: #f7f7f7;border-color: #d7dde4;cursor: not-allowed;}
+button:disabled:hover{}
+button, input, select, textarea {font-size:100%;background: transparent;font-size: inherit;line-height: inherit;font-family: sans-serif;    font-family: inherit;border: 0;outline: none;} 
+table { border-collapse:collapse; border-spacing:0;}
+a{color: #fff;}
+.clear{clear:both;height:0;font-size:0;line-height:0;visibility:hidden; overflow:hidden;} 
+.left{float: left;}
+.right{float: right;}
+.w{width: 1000px;margin: 0 auto;overflow: hidden;}
+.position-left{position: absolute;margin-left: 0;}
+.position-right{position: absolute;margin-right: 0;}
+/*全局按钮*/
+.btns{padding: 6px 15px;color: #fff;border: 1px solid #39f;background: #39f;border-radius:4px;font-size: 12px;transition: color .2s linear,background-color .2s linear,border .2s linear;cursor: pointer;}
+
+.btn-a{padding: 6px 15px;color: #39f;background: transparent;border-radius:4px;font-size: 12px;transition: color .2s linear,background-color .2s linear,border .2s linear;cursor: pointer;display:inline-block;}
+
+.btns:hover{background: #5cadff;border-color:#5cadff ;}
+
+.btn-right{margin-right: 10px;}
+
+.modifybtn{background: #39f;border: 1px solid #39f;color: #fff;padding: 2px 7px;border-radius: 4px;transition: color .2s linear,background-color .2s linear,border .2s linear;cursor: pointer;}
+.modifybtn:hover{background: #5cadff;border-color: #5cadff;}
+.openbtn{background: #f30;border: 1px solid #f30;color: #fff;padding: 2px 7px;border-radius: 4px;transition: color .2s linear,background-color .2s linear,border .2s linear;cursor: pointer;}
+.openbtn:hover{background: #ff5c33;border-color: #ff5c33;}
+body{font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;font-size: 12px;ine-height: 1.5;color: #657180;}
+.triangle-up{width:0;height:0;border-left:5px solid transparent;   border-right:5px solid transparent;border-bottom:5px solid #c3cbd6;left: 0px;top: 0;}
+.triangle-down{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #c3cbd6;left:0px ;bottom: 0;}
+.triangle-right1{width:0;height:0;border-left:5px solid #c3cbd6;border-bottom:5px solid transparent;border-top:5px solid transparent;position: absolute;left:0px;top: 50%;bottom: 0;background: #fff;}
+
+.triangle-right{width: 0;height: 0;border-color: transparent;border-style: solid;border-width: 5px 0 5px 5px;border-left-color: hsla(0,0%,85%,.5);position: absolute;left: -9px;z-index: 10;background: #fff;}
+
+.triangle-right:after{content: " ";position: absolute;border-color: transparent;border-style: solid;left: -9px;border-right-width: 0;border-left-color: #fff;bottom: -5px;border-width: 5px;display: block;width: 0;height: 0;}
+
+.blue{font-size: 14px;background: #39f;color: #fff;border: 1px solid #39f;padding: 4px 10px;border-radius:4px ;cursor: pointer;-webkit-transition: border .1s ease-in-out,background-color .1s linear;-moz-transition: border .1s ease-in-out,background-color .1s linear;-o-transition: border .1s ease-in-out,background-color .1s linear;transition: border .1s ease-in-out,background-color .1s linear;}
+.blue:hover{background: #5cadff;border-color: #5cadff;}
+
+.cancel-o{font-size: 14px;color: #657180;background: #f7f7f7;border: 1px solid #d7dde4;padding: 4px 10px;border-radius:4px ;cursor: pointer;-webkit-transition: border .1s ease-in-out,background-color .1s linear;-moz-transition: border .1s ease-in-out,background-color .1s linear;-o-transition: border .1s ease-in-out,background-color .1s linear;transition: border .1s ease-in-out,background-color .1s linear;}
+.cancel-o:hover{background: #fff;border-color: #5cadff;color:#5cadff ;}
+
+.anibtn{display: inline-block;font-size: 14px;padding: 6px 15px;border-radius:4px ;border: 1px solid transparent;cursor: pointer;-webkit-transition: border .1s ease-in-out,background-color .1s linear;-moz-transition: border .1s ease-in-out,background-color .1s linear;-o-transition: border .1s ease-in-out,background-color .1s linear;transition: border .1s ease-in-out,background-color .1s linear;}
+
+
+.cancel-add{color: #848d99;background: #fff;border-color: #dfe4e9;}
+.cancel-add:hover{background: #fff;border-color: #5cadff;color:#5cadff ;}
+
+.delete{background: #dd514c;color: #fff;border: 1px solid #dd514c;padding: 4px 10px;border-radius:4px ;cursor: pointer;-webkit-transition: background-color .1s linear;-moz-transition: background-color .1s linear;-o-transition: background-color .1s linear;transition: background-color .1s linear;}
+.delete:hover{background: rgb(198,48,38);}
+
+.cancel{background: #dd514c;color: #fff;border: 1px solid #dd514c;padding: 6px 15px;margin: 0 5px;border-radius:4px ;cursor: pointer;-webkit-transition: background-color .1s linear;-moz-transition: background-color .1s linear;-o-transition: background-color .1s linear;transition: background-color .1s linear;}
+.cancel:hover{background: rgb(198,48,38);}
+/*通用窗口*/
+#wrap{width: 100%;height: 100%;position: fixed;z-index: 9999;background: rgba(55,55,55,.6);top: 0;left: 0;display: none;}
+#wrap .wrap-body{width: 720px;top: 20px;left: 50%;transform: translateX(-50%);-ms-transform: translateX(-50%);-moz-transform: translateX(50%);-o-transform: translateX(-50%);position: relative;background: #fff;overflow: hidden;border-radius: 6px;}
+#wrap .wrap-con{padding: 16px;border-top: 1px solid #e3e8ee;border-bottom: 1px solid #e3e8ee;}
+#wrap .wrap-con img{display: block;}
+#wrap .wrap-btn{padding: 12px 18px;text-align: right;}
+#wrap .wrap-btn span{padding: 6px 15px;text-align: center;border: 1px solid transparent;font-size: 12px;transition: color .2s linear,background-color .2s linear,border .2s linear;display: inline-block;cursor: pointer;border-radius: 4px;}
+#wrap .wrap-btn .close-btn{color: #657180;border-color: #d7dde4;}
+#wrap .wrap-btn .close-btn:hover{color: #39f;border-color:#39f ;}
+#wrap .wrap-btn .next-btn{color: #fff;border-color: #39f;background: #39f;margin-left: 7px;}
+#wrap .wrap-btn .next-btn:hover{color: #fff;border-color: #5cadff;background: #5cadff;}
+#wrap .close-wrap{position: absolute;right: 16px;top: 15px;color: #657180;font-size: 20px;cursor: pointer;}
+#wrap .title{width: 100%;padding: 14px 16px;height: 20px;line-height: 20px;display: inline-block;font-size: 14px;color: #464c5b;font-weight: bold;}
+
+#wrap .express{width: 800px;}
+
+
+/*表单样式*/
+#form {padding:5px 0 8px 55px;overflow: hidden;}
+#form >div{width: 100%;float: left;}
+#form form >div span{display: block;margin-left: 122px;height: 24px;line-height: 24px;}
+#form form > div >label{width: 110px;padding: 7px 12px 7px 0;display: inline-block;font-size: 12px;color: #657180;text-align: right;float: left;}
+#form form > div input:hover{border-color:#5cadff ;}
+#form form > div input,#form form > div textarea{padding: 4px 7px;border: 1px solid #d7dde4;transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;border-radius: 4px;color: #657180;margin-right: 5px;}
+#form form > div input[type='text']{width: 645px;height: 22px;}
+#form form >div .ltxt:before{content: "*";display: inline-block;margin-right: 4px;line-height: 1;font-family: SimSun;font-size: 12px;color: #f30;}
+#form form > div textarea{width: 645px;height: 63px;max-width: 645px;}
+#form form > div .btns{margin-left: 122px;}
+#form form > div .radio label{display: inline-block;padding: 7px 0;line-height: 19px;position: relative;margin-right: 5px;color: #657180;cursor: pointer;text-align: right;}
+#form form  div .radio span{width: 12px;height: 12px;border: 1px solid #d7dde4;margin: 2px 5px 2px 0px;float: left;}
+#form form  div .radio input{display: inline-block;float: left;margin: 3px 3px 0 0;}
+
+#form form  div select{width: 150px;height: 33px;padding: 4px 7px;border: 1px solid #d7dde4;transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;border-radius: 4px;color: #657180;}
+
+
+
+
+#forms {overflow: hidden;}
+#forms >div{width: 100%;float: left;}
+#forms form >div span{display: block;margin-left: 100px;height: 24px;line-height: 24px;}
+#forms form > div >label{width: 88px;padding: 7px 12px 7px 0;display: inline-block;font-size: 12px;color: #657180;text-align: right;float: left;}
+#forms form > div input:hover{border-color:#5cadff ;}
+#forms form > div input,#forms form > div textarea{padding: 4px 7px;border: 1px solid #d7dde4;transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;border-radius: 4px;color: #657180;}
+#forms form > div input[type='text']{width: 645px;height: 22px;}
+#forms form >div .ltxt:before{content: "*";display: inline-block;margin-right: 4px;line-height: 1;font-family: SimSun;font-size: 12px;color: #f30;}
+#forms form > div textarea{width: 645px;height: 63px;max-width: 645px;;}
+#forms form > div .btns{}
+#forms form > div .radio label{display: inline-block;padding: 7px 0;line-height: 19px;position: relative;margin-right: 5px;color: #657180;cursor: pointer;}
+#form form  div .radio span{width: 12px;height: 12px;border: 1px solid #d7dde4;margin: 2px 5px 2px 0px;float: left;}
+#forms form  div .radio input[type='radio']{display: inline-block;float: left;margin: 3px 3px 0 0;border: 0;}
+#forms form .bor{display: inline-block;width: 245px;height: 29px;line-height: 1.5;padding: 1px 7px;font-size: 12px;border: 1px solid #d7dde4;border-radius: 4px;color: #657180;background-color: #fff;background-image: none;position: relative;cursor: text;transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;}
+#forms form .bor ul{position: absolute;padding: 5px 0;z-index: 20;background: #fff;left: 0;top: 30px;box-sizing: border-box;border-radius: 4px;box-shadow: 0 1px 6px rgba(0,0,0,.2);margin: 5px 0;}
+#forms form .bor ul li{width: 260px;height: 31px;line-height: 31px;text-indent: 16px;cursor: pointer;transition: background .2s ease-in-out;}
+#forms form .bor ul li:first-child{background: rgba(51,153,255,.9);color: #fff;}
+#forms form .bor ul li:first-child:hover{background: rgba(51,153,255,.9);color: #fff;}
+#forms form .bor ul li:hover{background: #f3f3f3;}
+#forms form .bor span{margin-left: 0px;line-height: 30px;}
+
+#forms form > div .radios{float: left;}
+#forms form > div .radios input[type='text']{width: 245px;margin-bottom: 10px;}
+#forms form > div .radios label{float: left;width: 70px;}
+#forms form > div .radios .div{width: 660px;display: block;}
+#forms form > div .radios .div div{float: left;}
+#forms form > div .radios .div:last-child{margin-top: 10px;}
+#form form  div input[type='file']{width: 300px;padding: 6px 7px;border: 0;}
+#form form  div .file{width: 680px;display: inline-block;}
+
+#form form .bor{display: inline-block;width: 245px;height: 29px;line-height: 1.5;padding: 1px 7px;font-size: 12px;border: 1px solid #d7dde4;border-radius: 4px;color: #657180;background-color: #fff;background-image: none;position: relative;cursor: text;transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;}
+#form form .bor ul{position: absolute;padding: 5px 0;z-index: 20;background: #fff;left: 0;top: 30px;box-sizing: border-box;border-radius: 4px;box-shadow: 0 1px 6px rgba(0,0,0,.2);margin: 5px 0;}
+#form form .bor ul li{width: 260px;height: 31px;line-height: 31px;text-indent: 16px;cursor: pointer;transition: background .2s ease-in-out;}
+#form form .bor ul li:first-child{background: rgba(51,153,255,.9);color: #fff;}
+#form form .bor ul li:first-child:hover{background: rgba(51,153,255,.9);color: #fff;}
+#form form .bor ul li:hover{background: #f3f3f3;}
+#form form .bor span{margin-left: 0px;line-height: 30px;}
+.bor i{width: 10px;height: 10px;display: block;position: absolute;background: url(../img/down.png) no-repeat;right: 11px;top: 11px;background-size:100% ;}
+.relative{position: relative;}
+.hide{position: absolute;width: 245px;height: 29px;line-height: 1.5;padding: 1px 7px;font-size: 12px;border-radius: 4px;top: 0;left: 0;}
+#form form >div #date_demo3{margin: 0;display: inline-block;padding: 4px 10px;}
+
+#form form .bor0{width: 194px;margin-right: 10px;}
+#form form .bor0 ul li{width: 210px;}
+
+#forms form > div .radios .act{cursor: no-drop;background: #dfe4e9;}
+#forms form > div .radios .acts{cursor: no-drop;background: #dfe4e9;}
+#forms form  div .radio input[type='radio']{border: 0;padding: 0;}
+
+#forms #date_demo3{margin: 0;display: inline-block;height: 21px;line-height: 21px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
